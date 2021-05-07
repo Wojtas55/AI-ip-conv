@@ -64,8 +64,8 @@ let bin2dec = (bin) =>{
 }
 ins.addEventListener('focusout',detect,false);
 
-function konwertuj() {
+function konwersja() {
   var elem = document.querySelectorAll("[id='in']");
   out.textContent = (+elem[0].value).toString(2)+'.'+(+elem[1].value).toString(2)+'.'+(+elem[2].value).toString(2)+'.'+(+elem[3].value).toString(2);
 }
-document.querySelector("#con").addEventListener("click", konwertuj)
+document.querySelector("#con").addEventListener("click", konwersja)
